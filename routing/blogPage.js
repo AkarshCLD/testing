@@ -4,7 +4,7 @@ const auth = require('../middleware/auth');
 const blogRouter = require('express').Router();
 
 blogRouter.get('/', auth, (req, res) => {
-    res.send('this is our home page');
+    res.send('this is our hodssdsfsdsme page');
 });
 blogRouter.get('/bollywood', auth, (req, res) => {
     res.send('bollywood');
